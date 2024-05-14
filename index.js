@@ -1,5 +1,2 @@
-function sayHi() {
-  console.log("Hi!");
-}
-
-setTimeout(sayHi, 2000); // Run sayHi after 2 seconds
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log(randomNumber);
